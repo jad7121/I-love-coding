@@ -1,0 +1,67 @@
+.food_image {
+    height: 20px;
+    width: 15px;
+}
+.cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.update-cart {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+    width: 50px;
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 0;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minimize-button {
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.minimized {
+    display: none;
+}
